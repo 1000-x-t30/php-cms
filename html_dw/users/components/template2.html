@@ -1,0 +1,79 @@
+<style>
+* {
+	padding: 0;
+	margin: 0;
+}
+.template2-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 30px;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.template2-logo {
+	line-height: 36px;
+	font-weight: 600;
+}
+.template2-nav {
+	display: flex;
+}
+.template2-ul-1 {
+	padding-right: 30px;
+}
+.template2-ul-1,
+.template2-ul-2 {
+	display: flex;
+	list-style: none;
+}
+.template2-ul-1 .template2-li {
+	position: relative;
+}
+.template2-ul-1 .template2-li::before {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 1px;
+	bottom: 8px;
+	left: 0;
+	background-color: #2b2b2b;
+}
+.template2-ul-1 .template2-li:hover::before {
+	width: 100%;
+	transition: .3s;
+}
+.template2-li {
+	font-size: .8rem;
+	line-height: 36px;
+	padding: 0 5px;
+	margin: 0 10px;
+}
+.template2-entry {
+	line-height: 36px;
+	padding: 0 20px;
+	border-radius: 20px;
+	border: 1px solid #2b2b2b;
+
+}
+.template2-entry:hover {
+	background-color: #2b2b2b;
+	color: #fff;
+	transition: .3s;
+}
+</style>
+<body>
+	<header class="template2-header">
+		<div class="template2-logo">Hello, world!!</div>
+		<nav class="template2-nav">
+			<ul class="template2-ul-1">
+				<li class="template2-li">会社概要</li>
+				<li class="template2-li">事業内容</li>
+				<li class="template2-li">採用について</li>
+				<li class="template2-li">お知らせ</li>
+			</ul>
+			<ul class="template2-ul-2">
+				<li class="template2-li template2-entry">新卒エントリー</li>
+				<li class="template2-li template2-entry">中途エントリー</li>
+			</ul>
+		</nav>
+	</header>
+</body>

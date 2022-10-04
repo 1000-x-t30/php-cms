@@ -1,0 +1,369 @@
+<style>
+* {
+	padding: 0;
+	margin: 0;
+}
+.template2-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 30px;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.template2-logo {
+	line-height: 36px;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.template2-nav {
+	display: flex;
+}
+.template2-ul-1 {
+	padding-right: 30px;
+}
+.template2-ul-1,
+.template2-ul-2 {
+	display: flex;
+	list-style: none;
+}
+.template2-ul-1 .template2-li {
+	position: relative;
+}
+.template2-ul-1 .template2-li::before {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 1px;
+	bottom: 8px;
+	left: 0;
+	background-color: #2b2b2b;
+}
+.template2-ul-1 .template2-li:hover::before {
+	width: 100%;
+	transition: .3s;
+}
+.template2-li {
+	font-size: .8rem;
+	line-height: 36px;
+	padding: 0 5px;
+	margin: 0 10px;
+}
+.template2-entry {
+	line-height: 36px;
+	padding: 0 20px;
+	border-radius: 20px;
+	border: 1px solid #2b2b2b;
+
+}
+.template2-entry:hover {
+	background-color: #2b2b2b;
+	color: #fff;
+	transition: .3s;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.template1 {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 30px 100px;
+	margin: 0 auto;
+	height: 100vh;
+}
+.template1-h1 {
+	padding-bottom: 30px;
+}
+.template1-dl {
+	list-style: none;
+	width: 500px;
+}
+.template1-div {
+	display: flex;
+	padding: 20px 0;
+	width: 100%;
+}
+.template1-dt {
+	padding: 5px 10px;
+	color: #000;
+	width: 153px;
+}
+.template1-div-name {
+	display: flex;
+	justify-content: space-between;
+}
+.template1-div-name .template1-name {
+	display: flex;
+	justify-content: space-between;
+}
+.template1-div-name input[type="text"] {
+	display: block;
+ 	border: none;
+ 	border: 1px solid #2b2b2b;
+ 	background-color: #fff;
+ 	padding: 5px 5px 5px 10px;
+ 	line-height: 2em;
+ 	border-radius: 3px;
+}
+.template1-div input[type="text"],
+.template1-div input[type="number"],
+.template1-div input[type="password"] {
+	display: block;
+ 	border: none;
+ 	border: 1px solid #2b2b2b;
+ 	background-color: #fff;
+ 	padding: 5px 5px 5px 10px;
+ 	line-height: 2em;
+ 	border-radius: 3px;
+ 	width: 330px;
+}
+.template1-div button {
+	display: block;
+	background-color: skyblue;
+	border: none;
+	line-height: ;
+	text-align: center;
+	line-height: 3em;
+	width: 100%;
+	color: #fff;
+	font-size: 1em;
+	border-radius: 3px;
+}
+.template1-div button:hover {
+	transition: .3s;
+	background-color: #00afcc;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+footer {
+	width: 100%;
+	background: #111;
+}
+footer .content {
+	max-width: 1350px;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer .content p,
+a {
+	color: #fff;
+}
+footer .content .box {
+	width: 33%;
+	transition: all .4s ease;
+}
+footer .content .topic {
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 16px;
+}
+footer .content p {
+	text-align: justify;
+}
+footer .content .lower .topic {
+	margin: 24px 0 5px 0;
+}
+footer .content .lower i {
+	padding-right: 16px;
+}
+footer .content .middle {
+	padding-left: 80px;
+}
+footer .content .middle a {
+	line-height: 32px;
+}
+footer .content .right input[type="text"] {
+	height: 45px;
+	width: 100%;
+	outline: none;
+	color: #d9d9d9;
+	background: #000;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 17px;
+	border: 2px solid #222;
+}
+footer .content .right input[type="submit"] {
+	height: 42px;
+	width: 100%;
+	font-size: 18px;
+	color: #d9d9d9;
+	background: #eb2f06;
+	outline: none;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	margin-top: 12px;
+	border: 2px solid #eb2f06;
+	transition: all .3s ease-in-out;
+}
+.content .right input[type="submit"]:hover {
+	background: none;
+	color: #eb2f06;
+}
+footer .content .media-icons a {
+	font-size: 16px;
+	height: 45px;
+	width: 45px;
+	display: inline-block;
+	text-align: center;
+	line-height: 43px;
+	border-radius: 5px;
+	border: 2px solid #222;
+	margin: 30px 5px 0 0;
+	transition: all .3s ease;
+}
+.content .media-icons a:hover {
+	border-color: #eb2f06;
+}
+footer .bottom {
+	width: 100%;
+	text-align: right;
+	color: #d9d9d9;
+	padding: 0 40px 5px 0;
+}
+footer .bottom a {
+	color: #eb2f06;
+}
+footer a {
+	transition: all .3s ease;
+}
+footer a:hover {
+	color: #eb2f06;
+}
+@media (max-width: 1100px) {
+	footer .content .middle {
+		padding-left: 50px;
+	}
+}
+@media (max-width: 950px) {
+	footer .content .box {
+		width: 50%;
+	}
+	.content .right {
+		margin-top: 40px;
+	}
+}
+@media (max-width: 560px) {
+	footer {
+		position: relative;
+	}
+	footer .content .box {
+		width: 100%;
+		margin-top: 30px;
+	}
+	footer .content .middle {
+		padding-left: 0;
+	}
+}
+</style>
+<body>
+	<header class="template2-header">
+		<div class="template2-logo">Hello, world!!</div>
+		<nav class="template2-nav">
+			<ul class="template2-ul-1">
+				<li class="template2-li">会社概要</li>
+				<li class="template2-li">事業内容</li>
+				<li class="template2-li">採用について</li>
+				<li class="template2-li">お知らせ</li>
+			</ul>
+			<ul class="template2-ul-2">
+				<li class="template2-li template2-entry">新卒エントリー</li>
+				<li class="template2-li template2-entry">中途エントリー</li>
+			</ul>
+		</nav>
+	</header>
+	<p><img src="./templates/template1/unsplash.jpg" width="100%" alt="office"></p>
+	<div class="template1">
+		<div class="template1-inner">
+			<h1 class="template1-h1">入力フォーム</h1>
+			<form method="post">
+				<dl class="template1-dl">
+					<div class="template1-div-name">
+						<dt class="template1-dt"><label>氏名</label></dt>
+						<div class="template1-name">
+							<dd><input type="text" name="name" value="" placeholder="例) 谷"></dd>
+							<dd><input type="text" name="name" value="" placeholder="例) 勝"></dd>
+						</div>
+					</div>
+					<div class="template1-div">
+						<dt class="template1-dt"><label>年齢</label></dt>
+						<dd><input type="number" name="name" value=""></dd>
+					</div>
+					<div class="template1-div">
+						<dt class="template1-dt"><label>ユーザーID</label></dt>
+						<dd><input type="text" name="user_id" value="" placeholder="例) 8~16桁"></dd>
+					</div>
+					<div class="template1-div">
+						<dt class="template1-dt"><label>パスワード</label></dt>
+						<dd><input type="password" name="pw" value=""></dd>
+					</div>
+					<div class="template1-div">
+						<dt class="template1-dt"><label>メールアドレス</label></dt>
+						<dd><input type="text" name="email" value="" placeholder="例) hal@co.com"></dd>
+					</div>
+					<div class="template1-div"><button type="submit" name="btn" value="btn">送信</button></div>
+				</dl>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div class="content">
+			<div class="left box">
+				<div class="upper">
+					<div class="topic">About Us</div>
+					<p>「学ぶ」ということを、多方向から分析し、実績と融合して生まれた、独自の教育システム。単なる技術修得のみならず、創造力、応用力、業界適応力を身につけることに主眼をおいています。</p>
+				</div>
+				<div class="lower">
+					<div class="topic">Contact Us</div>
+					<div class="phone">
+						<a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+					</div>
+					<div class="email">
+						<a href="#"><i class="fas fa-envelope"></i>abc@abc.com</a>
+					</div>
+				</div>
+			</div>
+			<div class="middle box">
+				<div class="topic">リンク</div>
+				<div><a href="#">サイト</a></div>
+				<div><a href="#">採用情報</a></div>
+				<div><a href="#">サイトポリシー/利用環境</a></div>
+				<div><a href="#">Q&A</a></div>
+				<div><a href="#">リンク集</a></div>
+				<div><a href="#">サイトマップ</a></div>
+			</div>
+			<div class="right box">
+				<div class="topic">その他</div>
+				<form action="#">
+					<input type="text" placeholder="サイト内検索">
+					<input type="submit" name="" value="Send">
+					<div class="media-icons">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="bottom">
+			<p>© template footer 02.</p>
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
